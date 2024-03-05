@@ -14,11 +14,11 @@ public class Application implements Runnable {
 
         // Add for each constructor overload one rectangle
         rectangles.add(new Rectangle());
-//        rectangles.add(new Rectangle(25, 25));
-//        rectangles.add(new Rectangle(25, 250, 30, 30));
-//        rectangles.add(new Rectangle(Color.green));
-//        rectangles.add(new Rectangle(150, 200, Color.pink));
-//        rectangles.add(new Rectangle(350, 400, 100, 40, Color.orange));
+        rectangles.add(new Rectangle(25, 25));
+        rectangles.add(new Rectangle(25, 250, 30, 30));
+        rectangles.add(new Rectangle(Color.green));
+        rectangles.add(new Rectangle(150, 200, Color.pink));
+        rectangles.add(new Rectangle(350, 400, 100, 40, Color.orange));
 
         // Draw all rectangles in the list
         for (Rectangle rectangle : rectangles) {

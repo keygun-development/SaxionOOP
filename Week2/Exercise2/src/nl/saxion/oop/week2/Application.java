@@ -26,19 +26,43 @@ public class Application implements Runnable {
         }
 
         // Test 2: check invalid zipcode (too short)
-        // TODO: Implement this check.
+        try {
+            Person p = new Person("Tristan", "Pothoven");
+            p.setZipCode("1234A");
+        } catch (IllegalArgumentException ex) {
+            SaxionApp.printLine("Error: " + ex.getMessage());
+        }
 
         // Test 3: check invalid zipcode (not numeric)
-        // TODO: Implement this check.
+        try {
+            Person p = new Person("Tristan", "Pothoven");
+            p.setZipCode("AAAAAA");
+        } catch (IllegalArgumentException ex) {
+            SaxionApp.printLine("Error: " + ex.getMessage());
+        }
 
         // Test 4: check invalid zipcode (no letters)
-        // TODO: Implement this check.
+        try {
+            Person p = new Person("Tristan", "Pothoven");
+            p.setZipCode("123456");
+        } catch (IllegalArgumentException ex) {
+            SaxionApp.printLine("Error: " + ex.getMessage());
+        }
 
         // Test 5: check phone number (too long)
-        // TODO: Implement this check.
+        try {
+            Person p = new Person("Tristan", "Pothoven");
+            p.setPhonenumber("06123456789");
+        } catch (IllegalArgumentException ex) {
+            SaxionApp.printLine("Error: " + ex.getMessage());
+        }
 
         // Test 6: check phone number (not starting with a 0)
-        // TODO: Implement this check.
-
+        try {
+            Person p = new Person("Tristan", "Pothoven");
+            p.setPhonenumber("1612345678");
+        } catch (IllegalArgumentException ex) {
+            SaxionApp.printLine("Error: " + ex.getMessage());
+        }
     }
 }

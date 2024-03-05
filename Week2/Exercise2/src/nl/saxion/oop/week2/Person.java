@@ -23,13 +23,19 @@ public class Person {
     }
 
     public void setZipCode(String zipCode) {
-        // TODO: Implement checks and make sure to throw an IllegalArgumentException if something goes wrong!
-        this.zipCode = zipCode;
+        if (zipCode.matches("[0-9]{4}[A-Z]{2}")) {
+            this.zipCode = zipCode;
+        } else {
+            throw new IllegalArgumentException("Invalid zip code.");
+        }
     }
 
     public void setPhonenumber(String phoneNumber) {
-        // TODO: Implement checks and make sure to throw an IllegalArgumentException if something goes wrong!
-        this.phoneNumber = phoneNumber;
+        if (phoneNumber.matches("0[0-9]{9}")) {
+            this.phoneNumber = phoneNumber;
+        } else {
+            throw new IllegalArgumentException("Invalid phone number.");
+        }
     }
 
     /**
