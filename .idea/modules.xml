@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Week1/Exercise0/Exercise0.iml" filepath="$PROJECT_DIR$/Week1/Exercise0/Exercise0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week2/Exercise0/Exercise01.iml" filepath="$PROJECT_DIR$/Week2/Exercise0/Exercise01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week1/Exercise1/Exercise1.iml" filepath="$PROJECT_DIR$/Week1/Exercise1/Exercise1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week2/Exercise1/Exercise11.iml" filepath="$PROJECT_DIR$/Week2/Exercise1/Exercise11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week1/Exercise2/Exercise2.iml" filepath="$PROJECT_DIR$/Week1/Exercise2/Exercise2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week2/Exercise2/Exercise21.iml" filepath="$PROJECT_DIR$/Week2/Exercise2/Exercise21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week1/Exercise3/Exercise3.iml" filepath="$PROJECT_DIR$/Week1/Exercise3/Exercise3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week2/Exercise3/Exercise31.iml" filepath="$PROJECT_DIR$/Week2/Exercise3/Exercise31.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week1/Exercise4/Exercise4.iml" filepath="$PROJECT_DIR$/Week1/Exercise4/Exercise4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week2/Exercise4/Exercise41.iml" filepath="$PROJECT_DIR$/Week2/Exercise4/Exercise41.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week2/Exercise5/Exercise5.iml" filepath="$PROJECT_DIR$/Week2/Exercise5/Exercise5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week1/Exercise5/Exercise51.iml" filepath="$PROJECT_DIR$/Week1/Exercise5/Exercise51.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week1/Exercise6/Exercise6.iml" filepath="$PROJECT_DIR$/Week1/Exercise6/Exercise6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/OOP.iml" filepath="$PROJECT_DIR$/.idea/OOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week3/Week3.iml" filepath="$PROJECT_DIR$/Week3/Week3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week4/Week4.iml" filepath="$PROJECT_DIR$/Week4/Week4.iml" />
+    </modules>
+  </component>
+</project>
