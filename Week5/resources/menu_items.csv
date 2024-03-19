@@ -1,0 +1,12 @@
+type (drink or food),name,price,ml(drink) or num of people(food),alcohol(Drink) or hot(Food)
+d,Cafe Creme,2.75,250,false
+d,Flesje Appelsap,2.95,250,false
+d,Bier van het fust,5.75,500,true
+f,Grote reuze pannenkoek,7.95,1,true
+f,Grote salade,11.75,4,false
+f,Shoarma pannenkoek,14.75,1,true
+f,De Noorse pannenkoek,13.75,1,true
+f,Twee van Dobben-kroketten,13.75,2,true
+d,Rode port,3.75,150,true
+d,Whisky,4.25,60,true
+d,Moccachino,3.00,175,false

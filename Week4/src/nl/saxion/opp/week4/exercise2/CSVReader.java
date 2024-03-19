@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class CSVReader {
-    static Scanner fileReader;
+    private static Scanner fileReader;
 
     public CSVReader(String filename) throws FileNotFoundException {
         fileReader = new Scanner(new File(filename));

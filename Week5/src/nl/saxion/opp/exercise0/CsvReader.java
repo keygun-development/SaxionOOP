@@ -1,13 +1,13 @@
-package nl.saxion.opp.week4.exercise6;
+package nl.saxion.opp.exercise0;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class CSVReader {
+public class CsvReader {
     private static Scanner fileReader;
 
-    public CSVReader(String filename) throws FileNotFoundException {
+    public CsvReader(String filename) throws FileNotFoundException {
         fileReader = new Scanner(new File(filename));
     }
 
