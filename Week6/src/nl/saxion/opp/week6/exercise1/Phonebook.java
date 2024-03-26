@@ -1,17 +1,16 @@
 package nl.saxion.opp.week6.exercise1;
 
-import java.util.ArrayList;
+import java.util.TreeSet;
 
 public class Phonebook {
-    private ArrayList<Person> persons = new ArrayList<>();
+    private TreeSet<Person> persons = new TreeSet<>();
 
     public void addPerson(Person person) {
         persons.add(person);
     }
 
     public String toString() {
-        persons.sort(Person::compareTo);
-        for(Person person : persons) {
+        for (Person person : persons) {
             System.out.println(person);
         }
         return "";
