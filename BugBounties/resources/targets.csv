@@ -1,0 +1,6 @@
+type,name,city,taxNumber,registrationNumber
+company,Bol,Amsterdam,123456789,-
+company,Amazon,Seattle,987654321,-
+company,Nu,Hoofddorp,789123456,-
+charity,Save the Children,New York,-,CH-123-456
+charity,World Wildlife Fund,Las Vegas,-,CH-789-123
