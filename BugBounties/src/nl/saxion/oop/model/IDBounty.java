@@ -19,6 +19,6 @@ public class IDBounty extends Bounty {
     }
 
     public String toString() {
-        return "IDBounty: " + super.getId() + " " + super.getTargetName() + " " + super.getYear() + " €" + super.getAmount() + " " + information + " " + gdpr;
+        return "IDBounty: " + super.getId() + " " + super.getTargetName() + " " + super.getYear() + " €" + super.getAmount() + " " + information + " " + (Boolean.valueOf(this.gdpr) ? "*" : "");
     }
 }

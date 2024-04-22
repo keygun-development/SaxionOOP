@@ -113,8 +113,16 @@ public class Application {
                 case 3: {
                     System.out.println();
                     System.out.println("Overview of bugbounties:");
+                    String maxId = "";
+                    int max = 0;
+                    for(Bounty bounty : admin.getBounties()) {
+                        if(bounty.getAmount() > max) {
+                            max = bounty.getAmount();
+                            maxId = bounty.getId();
+                        }
+                    }
                     for (Bounty bounty : admin.getBounties()) {
-                        System.out.println(bounty);
+                        System.out.println(bounty + (bounty.getId().equals(maxId) ? " (max)" : ""));
                     }
                     System.out.println("Total payout: €" + admin.getTotalPayout());
                     break;
